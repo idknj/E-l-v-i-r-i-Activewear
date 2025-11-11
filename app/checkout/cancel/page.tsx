@@ -1,11 +1,5 @@
 "use client";
 
-export const metadata = {
-  title: "Payment Canceled | E l v i r i Activewear",
-  description:
-    "Your payment was not completed. Don’t worry — your items are still in your cart. You can try again anytime.",
-};
-
 import Link from "next/link";
 
 export default function CancelPage() {

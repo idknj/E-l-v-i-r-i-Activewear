@@ -1,60 +1,53 @@
-export const metadata = {
-  title: "Core Collection | Elviri Activewear Essentials",
-  description:
-    "Shop Elviri’s Core Collection — timeless activewear pieces combining luxury comfort and effortless performance for every move.",
-};
-
 "use client";
 
 import { useState } from "react";
 import products from "../../data/products.json";
 import { ProductCard } from "../../components/product/ProductCard";
 
-const categories = ["All", "Tops", "Bottoms", "Sets", "Accessories"];
-
 export default function CollectionsPage() {
-  const [active, setActive] = useState("All");
+  const [filter, setFilter] = useState("all");
 
-  const filtered =
-    active === "All"
+  const filteredProducts =
+    filter === "all"
       ? products
-      : products.filter(
-          (p: any) =>
-            p.category?.toLowerCase() === active.toLowerCase()
-        );
+      : products.filter((p: any) => p.category.toLowerCase() === filter);
+
+  const uniqueCategories = [
+    "all",
+    ...new Set(products.map((p: any) => p.category.toLowerCase())),
+  ];
 
   return (
-    <section className="space-y-12 animate-fadeIn">
-      {/* Header */}
-      <div className="text-center space-y-4">
-        <h1 className="text-4xl md:text-5xl font-display font-semibold">
-          Explore Our Collections
-        </h1>
-        <p className="text-white/60 max-w-2xl mx-auto">
-          Premium activewear engineered for performance, comfort, and confidence.
+    <section className="max-w-6xl mx-auto py-16 px-6 space-y-10">
+      <header className="space-y-3 text-center">
+        <h1 className="text-4xl font-semibold">Our Collections</h1>
+        <p className="text-white/70 max-w-2xl mx-auto">
+          Shop E l v i r i Activewear’s Core Collection — timeless activewear
+          pieces combining luxury comfort and effortless performance for every
+          move.
         </p>
-      </div>
+      </header>
 
-      {/* Filter buttons */}
+      {/* --- Filter Buttons --- */}
       <div className="flex flex-wrap justify-center gap-3">
-        {categories.map((c) => (
+        {uniqueCategories.map((cat) => (
           <button
-            key={c}
-            onClick={() => setActive(c)}
-            className={`px-5 py-2 rounded-full border text-sm font-medium transition ${
-              active === c
-                ? "bg-[#a38b70] text-black border-[#a38b70]"
-                : "border-white/20 text-white/80 hover:border-[#a38b70] hover:text-[#a38b70]"
+            key={cat}
+            onClick={() => setFilter(cat)}
+            className={`px-4 py-2 text-sm font-medium rounded-full transition ${
+              filter === cat
+                ? "bg-[#a38b70] text-black"
+                : "bg-white/10 text-white/80 hover:bg-white/20"
             }`}
           >
-            {c}
+            {cat.charAt(0).toUpperCase() + cat.slice(1)}
           </button>
         ))}
       </div>
 
-      {/* Product grid */}
-      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8">
-        {filtered.map((product: any) => (
+      {/* --- Products Grid --- */}
+      <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-6">
+        {filteredProducts.map((product: any) => (
           <ProductCard key={product.id} product={product} />
         ))}
       </div>

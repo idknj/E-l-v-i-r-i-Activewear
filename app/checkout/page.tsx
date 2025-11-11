@@ -1,9 +1,3 @@
-export const metadata = {
-  title: "Checkout | Elviri Activewear",
-  description:
-    "Complete your order securely and confidently. Experience luxury activewear designed for motion, comfort, and performance.",
-};
-
 "use client";
 
 import Link from "next/link";
@@ -15,17 +9,17 @@ import { useState } from "react";
 export default function CheckoutPage() {
   const { items, clearCart } = useCart();
   const router = useRouter();
-
-  const subtotal = items.reduce(
-    (sum, item) => sum + item.price * item.quantity,
-    0
-  );
-
   const [form, setForm] = useState({
     name: "",
     email: "",
     address: "",
   });
+  const [processing, setProcessing] = useState(false);
+
+  const subtotal = items.reduce(
+    (sum, item) => sum + item.price * item.quantity,
+    0
+  );
 
   const handleChange = (e: React.ChangeEvent<HTMLInputElement>) =>
     setForm({ ...form, [e.target.name]: e.target.value });
@@ -38,14 +32,19 @@ export default function CheckoutPage() {
       return;
     }
 
-    // Save summary (optional)
+    setProcessing(true);
+
+    // Save order summary locally (for testing or confirmation)
     localStorage.setItem(
       "elviri_order",
       JSON.stringify({ customer: form, items, subtotal })
     );
 
-    // redirect to payment step (we’ll make this page next)
-    router.push("/checkout/payment");
+    // Simulated payment redirect
+    setTimeout(() => {
+      clearCart();
+      router.push("/checkout/success");
+    }, 1200);
   };
 
   if (items.length === 0) {
@@ -100,7 +99,7 @@ export default function CheckoutPage() {
         </div>
       </div>
 
-      {/* --- Customer Form --- */}
+      {/* --- Customer Info Form --- */}
       <form
         onSubmit={handleSubmit}
         className="space-y-6 bg-white/5 p-6 rounded-2xl border border-white/10"
@@ -144,9 +143,10 @@ export default function CheckoutPage() {
 
           <button
             type="submit"
-            className="bg-[#a38b70] text-black font-semibold px-8 py-3 rounded-md hover:bg-[#cbb899] transition"
+            disabled={processing}
+            className="bg-[#a38b70] text-black font-semibold px-8 py-3 rounded-md hover:bg-[#cbb899] transition disabled:opacity-50"
           >
-            Proceed to Payment
+            {processing ? "Processing..." : "Proceed to Payment"}
           </button>
         </div>
       </form>
