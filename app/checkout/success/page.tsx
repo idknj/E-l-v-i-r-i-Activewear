@@ -1,10 +1,10 @@
-export const metadata = {
-  title: "Order Confirmed | Elviri Activewear",
-  description:
-    "Thank you for your purchase! Your order has been received and is being processed. Welcome to the Elviri Sportsware community.",
-};
-
 "use client";
+
+export const metadata = {
+  title: "Order Confirmed | E l v i r i Activewear",
+  description:
+    "Thank you for your purchase! Your order has been received and is being processed. Welcome to the E l v i r i Activewear community.",
+};
 
 import Link from "next/link";
 import { useEffect } from "react";
