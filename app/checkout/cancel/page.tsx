@@ -1,10 +1,10 @@
+"use client";
+
 export const metadata = {
-  title: "Payment Canceled | Elviri Activewear",
+  title: "Payment Canceled | E l v i r i Activewear",
   description:
     "Your payment was not completed. Don’t worry — your items are still in your cart. You can try again anytime.",
 };
-
-"use client";
 
 import Link from "next/link";
 
