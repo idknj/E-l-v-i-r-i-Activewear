@@ -1,10 +1,10 @@
+"use client";
+
 export const metadata = {
-  title: "Your Cart | Elviri Activewear Checkout",
+  title: "Your Cart | E l v i r i Activewear Checkout",
   description:
     "Review the items in your cart before checkout. Experience minimalist, high-performance activewear built for your daily motion.",
 };
-
-"use client";
 
 import Image from "next/image";
 import Link from "next/link";
