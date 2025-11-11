@@ -1,0 +1,101 @@
+[
+  {
+    "id": "1",
+    "name": "Elviri Core Sports Bra",
+    "price": 599,
+    "category": "Tops",
+    "colors": [
+      { "name": "Black", "image": "/images/Elviri Activewear products/sportsbra-black.png" },
+      { "name": "Grey", "image": "/images/Elviri Activewear products/sportsbra-grey.png" },
+      { "name": "Mocha", "image": "/images/Elviri Activewear products/sportsbra-mocha.png" }
+    ]
+  },
+  {
+    "id": "2",
+    "name": "Men’s Performance Shorts",
+    "price": 749,
+    "category": "Bottoms",
+    "colors": [
+      { "name": "Black", "image": "/images/Elviri Activewear products/shorts-men-black.png" },
+      { "name": "Grey", "image": "/images/Elviri Activewear products/shorts-men-grey.png" },
+      { "name": "White", "image": "/images/Elviri Activewear products/shorts-men-white.png" }
+    ]
+  },
+  {
+    "id": "3",
+    "name": "Women’s Biker Shorts",
+    "price": 749,
+    "category": "Bottoms",
+    "colors": [
+      { "name": "Black", "image": "/images/Elviri Activewear products/bikershorts-black.png" },
+      { "name": "Grey", "image": "/images/Elviri Activewear products/bikershorts-grey.png" },
+      { "name": "Mocha", "image": "/images/Elviri Activewear products/bikershorts-mocha.png" }
+    ]
+  },
+  {
+    "id": "4",
+    "name": "High-Rise Leggings",
+    "price": 899,
+    "category": "Bottoms",
+    "colors": [
+      { "name": "Black", "image": "/images/Elviri Activewear products/leggings-black.png" },
+      { "name": "Grey", "image": "/images/Elviri Activewear products/leggings-grey.png" },
+      { "name": "Mocha", "image": "/images/Elviri Activewear products/leggings-mocha.png" }
+    ]
+  },
+  {
+    "id": "5",
+    "name": "Women’s Sculpfit Jacket",
+    "price": 1099,
+    "category": "Tops",
+    "colors": [
+      { "name": "Black", "image": "/images/Elviri Activewear products/sculpfit-jacket-black.png" },
+      { "name": "Grey", "image": "/images/Elviri Activewear products/sculpfit-jacket-grey.png" },
+      { "name": "Mocha", "image": "/images/Elviri Activewear products/sculpfit-jacket-mocha.png" }
+    ]
+  },
+  {
+    "id": "6",
+    "name": "Women’s Backless Bra",
+    "price": 649,
+    "category": "Tops",
+    "colors": [
+      { "name": "Black", "image": "/images/Elviri Activewear products/backlessbra-black.png" },
+      { "name": "Grey", "image": "/images/Elviri Activewear products/backlessbra-grey.png" },
+      { "name": "Mocha", "image": "/images/Elviri Activewear products/backlessbra-mocha.png" }
+    ]
+  },
+  {
+    "id": "7",
+    "name": "Women’s Compression Top",
+    "price": 799,
+    "category": "Tops",
+    "colors": [
+      { "name": "Black", "image": "/images/Elviri Activewear products/compressiontee-women-black.png" },
+      { "name": "Grey", "image": "/images/Elviri Activewear products/compressiontee-women-grey.png" },
+      { "name": "Mocha", "image": "/images/Elviri Activewear products/compressiontee-women-mocha.png" }
+    ]
+  },
+  {
+    "id": "8",
+    "name": "Men’s Compression Tee",
+    "price": 799,
+    "category": "Tops",
+    "colors": [
+      { "name": "Black", "image": "/images/Elviri Activewear products/compressiontee-men-black.png" },
+      { "name": "Grey", "image": "/images/Elviri Activewear products/compressiontee-men-grey.png" },
+      { "name": "White", "image": "/images/Elviri Activewear products/compressiontee-men-white.png" }
+    ]
+  },
+  {
+    "id": "9",
+    "name": "Men’s Sculpfit Jacket",
+    "price": 1199,
+    "category": "Tops",
+    "colors": [
+      { "name": "Black Back", "image": "/images/Elviri Activewear products/sculpfit-jacket-black-back.png" },
+      { "name": "Black Front", "image": "/images/Elviri Activewear products/sculpfit-jacket-black-front.png" },
+      { "name": "Mocha", "image": "/images/Elviri Activewear products/sculpfit-jacket-mocha.png" }
+    ]
+  }
+]

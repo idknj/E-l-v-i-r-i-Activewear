@@ -1,0 +1,1 @@
+export default function Privacy(){return <div className='prose prose-invert'><h1>Privacy Policy</h1><p>Placeholder privacy content.</p></div>}

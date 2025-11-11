@@ -1,0 +1,20 @@
+[
+  {
+    "id": "core",
+    "handle": "core",
+    "title": "Core",
+    "description": "Daily training essentials \u2014 durable, breathable, no\u2011distractions fits."
+  },
+  {
+    "id": "heat",
+    "handle": "heat",
+    "title": "Heat",
+    "description": "Lightweight layers for high\u2011intensity sessions."
+  },
+  {
+    "id": "recovery",
+    "handle": "recovery",
+    "title": "Recovery",
+    "description": "Soft touch knits for cooldown and commute."
+  }
+]

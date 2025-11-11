@@ -1,0 +1,1 @@
+Add product images in /public/images: tee-black.jpg, shorts-graphite.jpg, hoodie-stone.jpg

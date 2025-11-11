@@ -1,0 +1,58 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* --- Root Variables --- */
+:root {
+  color-scheme: dark;
+  --font-display: "Montserrat", ui-sans-serif, system-ui, sans-serif;
+  --font-sans: "Lato", ui-sans-serif, system-ui, sans-serif;
+}
+
+/* --- Base Layout --- */
+body {
+  @apply bg-[#0f0f0f] text-white antialiased;
+}
+
+.container {
+  @apply max-w-6xl mx-auto px-4;
+}
+
+/* --- Reusable Components --- */
+.btn {
+  @apply inline-flex items-center justify-center rounded-2xl px-4 py-2 font-medium bg-white text-black hover:opacity-90 active:opacity-80 transition;
+}
+
+.card {
+  @apply rounded-2xl border border-white/10 bg-white/5 shadow-lg;
+}
+
+/* --- Elviri Global Enhancements --- */
+a,
+button {
+  @apply transition-all duration-300 ease-out;
+}
+
+button:active {
+  @apply scale-95;
+}
+
+/* --- Typography --- */
+h1,
+h2,
+h3,
+.font-display {
+  font-family: var(--font-display);
+  letter-spacing: -0.01em;
+}
+
+/* --- Section Spacing --- */
+section {
+  @apply py-16 md:py-24;
+}
+
+/* --- Luxury Overlay Gradient --- */
+body::before {
+  content: "";
+  @apply fixed inset-0 pointer-events-none bg-gradient-to-t from-black/10 to-transparent;
+}
