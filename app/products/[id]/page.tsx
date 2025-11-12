@@ -4,8 +4,8 @@ import { useParams, useRouter } from "next/navigation";
 import Image from "next/image";
 import { useState } from "react";
 
-import products from "../../../data/products.json";            // ✅ correct depth
-import { useCart } from "../../context/CartContext";        // ✅ correct depth
+import products from "../../../data/products.json"; // ✅ correct depth
+import { useCart } from "../../context/CartContext"; // ✅ correct depth
 
 export default function ProductDetailPage() {
   const params = useParams();
@@ -17,7 +17,7 @@ export default function ProductDetailPage() {
   const product = products.find((p: any) => p.id === productId);
 
   const [selectedColor, setSelectedColor] = useState(
-    product?.colors?.[0] ?? null
+    product?.colors?.[0] ?? null,
   );
 
   if (!product) {
@@ -41,7 +41,10 @@ export default function ProductDetailPage() {
       id: product.id,
       name: `${product.name} – ${selectedColor?.name ?? ""}`,
       price: product.price,
-      image: selectedColor?.image ?? product.colors?.[0]?.image ?? "/images/placeholder.png",
+      image:
+        selectedColor?.image ??
+        product.colors?.[0]?.image ??
+        "/images/placeholder.png",
     });
     router.push("/cart");
   };

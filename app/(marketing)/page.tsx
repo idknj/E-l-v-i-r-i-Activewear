@@ -12,9 +12,7 @@ export default function HomePage() {
   return (
     <div className="space-y-24">
       {/* Hero Section */}
-      <section
-        className="relative min-h-screen flex flex-col justify-center bg-[url('/images/hero-bg.jpg')] bg-cover bg-center bg-no-repeat"
-      >
+      <section className="relative min-h-screen flex flex-col justify-center bg-[url('/images/hero-bg.jpg')] bg-cover bg-center bg-no-repeat">
         {/* Soft overlay */}
         <div className="absolute inset-0 bg-[#f4efe9]/70" />
 
@@ -25,7 +23,8 @@ export default function HomePage() {
           </h1>
 
           <p className="text-lg text-neutral-800 max-w-md">
-            Premium activewear engineered for performance. Squat-proof fabrics, buttery comfort, and inclusive fits.
+            Premium activewear engineered for performance. Squat-proof fabrics,
+            buttery comfort, and inclusive fits.
           </p>
 
           <div className="pt-4">
@@ -41,9 +40,12 @@ export default function HomePage() {
 
       {/* Featured Section */}
       <section className="container mx-auto px-6 space-y-10">
-        <h2 className="text-3xl font-semibold text-center">Featured Essentials</h2>
+        <h2 className="text-3xl font-semibold text-center">
+          Featured Essentials
+        </h2>
         <p className="text-center text-white/60 max-w-xl mx-auto">
-          Built to move with you — Elviri staples that balance strength, comfort, and design.
+          Built to move with you — Elviri staples that balance strength,
+          comfort, and design.
         </p>
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8">
           {products.map((product) => (

@@ -1,1 +1,1 @@
-export const currency = (cents: number) => `R ${(cents/100).toFixed(2)}`;
+export const currency = (cents: number) => `R ${(cents / 100).toFixed(2)}`;

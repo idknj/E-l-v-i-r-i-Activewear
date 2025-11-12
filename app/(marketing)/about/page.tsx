@@ -9,8 +9,9 @@ export default function AboutPage() {
     <div className="space-y-4">
       <h1 className="text-3xl font-semibold">About Elviri Activeware</h1>
       <p className="text-white/70">
-        Elviri Activeware creates minimalist, high-performance apparel engineered for
-        training and daily movement. Designed in South Africa — built for everywhere.
+        Elviri Activeware creates minimalist, high-performance apparel
+        engineered for training and daily movement. Designed in South Africa —
+        built for everywhere.
       </p>
     </div>
   );

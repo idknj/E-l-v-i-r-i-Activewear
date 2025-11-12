@@ -18,7 +18,7 @@ export default function CheckoutPage() {
 
   const subtotal = items.reduce(
     (sum, item) => sum + item.price * item.quantity,
-    0
+    0,
   );
 
   const handleChange = (e: React.ChangeEvent<HTMLInputElement>) =>
@@ -37,7 +37,7 @@ export default function CheckoutPage() {
     // Save order summary locally (for testing or confirmation)
     localStorage.setItem(
       "elviri_order",
-      JSON.stringify({ customer: form, items, subtotal })
+      JSON.stringify({ customer: form, items, subtotal }),
     );
 
     // Simulated payment redirect

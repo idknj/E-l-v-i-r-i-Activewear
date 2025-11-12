@@ -5,9 +5,18 @@
     "price": 599,
     "category": "Tops",
     "colors": [
-      { "name": "Black", "image": "/images/Elviri Activewear products/sportsbra-black.png" },
-      { "name": "Grey", "image": "/images/Elviri Activewear products/sportsbra-grey.png" },
-      { "name": "Mocha", "image": "/images/Elviri Activewear products/sportsbra-mocha.png" }
+      {
+        "name": "Black",
+        "image": "/images/Elviri Activewear products/sportsbra-black.png"
+      },
+      {
+        "name": "Grey",
+        "image": "/images/Elviri Activewear products/sportsbra-grey.png"
+      },
+      {
+        "name": "Mocha",
+        "image": "/images/Elviri Activewear products/sportsbra-mocha.png"
+      }
     ]
   },
   {
@@ -16,9 +25,18 @@
     "price": 749,
     "category": "Bottoms",
     "colors": [
-      { "name": "Black", "image": "/images/Elviri Activewear products/shorts-men-black.png" },
-      { "name": "Grey", "image": "/images/Elviri Activewear products/shorts-men-grey.png" },
-      { "name": "White", "image": "/images/Elviri Activewear products/shorts-men-white.png" }
+      {
+        "name": "Black",
+        "image": "/images/Elviri Activewear products/shorts-men-black.png"
+      },
+      {
+        "name": "Grey",
+        "image": "/images/Elviri Activewear products/shorts-men-grey.png"
+      },
+      {
+        "name": "White",
+        "image": "/images/Elviri Activewear products/shorts-men-white.png"
+      }
     ]
   },
   {
@@ -27,9 +45,18 @@
     "price": 749,
     "category": "Bottoms",
     "colors": [
-      { "name": "Black", "image": "/images/Elviri Activewear products/bikershorts-black.png" },
-      { "name": "Grey", "image": "/images/Elviri Activewear products/bikershorts-grey.png" },
-      { "name": "Mocha", "image": "/images/Elviri Activewear products/bikershorts-mocha.png" }
+      {
+        "name": "Black",
+        "image": "/images/Elviri Activewear products/bikershorts-black.png"
+      },
+      {
+        "name": "Grey",
+        "image": "/images/Elviri Activewear products/bikershorts-grey.png"
+      },
+      {
+        "name": "Mocha",
+        "image": "/images/Elviri Activewear products/bikershorts-mocha.png"
+      }
     ]
   },
   {
@@ -38,9 +65,18 @@
     "price": 899,
     "category": "Bottoms",
     "colors": [
-      { "name": "Black", "image": "/images/Elviri Activewear products/leggings-black.png" },
-      { "name": "Grey", "image": "/images/Elviri Activewear products/leggings-grey.png" },
-      { "name": "Mocha", "image": "/images/Elviri Activewear products/leggings-mocha.png" }
+      {
+        "name": "Black",
+        "image": "/images/Elviri Activewear products/leggings-black.png"
+      },
+      {
+        "name": "Grey",
+        "image": "/images/Elviri Activewear products/leggings-grey.png"
+      },
+      {
+        "name": "Mocha",
+        "image": "/images/Elviri Activewear products/leggings-mocha.png"
+      }
     ]
   },
   {
@@ -49,9 +85,18 @@
     "price": 1099,
     "category": "Tops",
     "colors": [
-      { "name": "Black", "image": "/images/Elviri Activewear products/sculpfit-jacket-black.png" },
-      { "name": "Grey", "image": "/images/Elviri Activewear products/sculpfit-jacket-grey.png" },
-      { "name": "Mocha", "image": "/images/Elviri Activewear products/sculpfit-jacket-mocha.png" }
+      {
+        "name": "Black",
+        "image": "/images/Elviri Activewear products/sculpfit-jacket-black.png"
+      },
+      {
+        "name": "Grey",
+        "image": "/images/Elviri Activewear products/sculpfit-jacket-grey.png"
+      },
+      {
+        "name": "Mocha",
+        "image": "/images/Elviri Activewear products/sculpfit-jacket-mocha.png"
+      }
     ]
   },
   {
@@ -60,9 +105,18 @@
     "price": 649,
     "category": "Tops",
     "colors": [
-      { "name": "Black", "image": "/images/Elviri Activewear products/backlessbra-black.png" },
-      { "name": "Grey", "image": "/images/Elviri Activewear products/backlessbra-grey.png" },
-      { "name": "Mocha", "image": "/images/Elviri Activewear products/backlessbra-mocha.png" }
+      {
+        "name": "Black",
+        "image": "/images/Elviri Activewear products/backlessbra-black.png"
+      },
+      {
+        "name": "Grey",
+        "image": "/images/Elviri Activewear products/backlessbra-grey.png"
+      },
+      {
+        "name": "Mocha",
+        "image": "/images/Elviri Activewear products/backlessbra-mocha.png"
+      }
     ]
   },
   {
@@ -71,9 +125,18 @@
     "price": 799,
     "category": "Tops",
     "colors": [
-      { "name": "Black", "image": "/images/Elviri Activewear products/compressiontee-women-black.png" },
-      { "name": "Grey", "image": "/images/Elviri Activewear products/compressiontee-women-grey.png" },
-      { "name": "Mocha", "image": "/images/Elviri Activewear products/compressiontee-women-mocha.png" }
+      {
+        "name": "Black",
+        "image": "/images/Elviri Activewear products/compressiontee-women-black.png"
+      },
+      {
+        "name": "Grey",
+        "image": "/images/Elviri Activewear products/compressiontee-women-grey.png"
+      },
+      {
+        "name": "Mocha",
+        "image": "/images/Elviri Activewear products/compressiontee-women-mocha.png"
+      }
     ]
   },
   {
@@ -82,9 +145,18 @@
     "price": 799,
     "category": "Tops",
     "colors": [
-      { "name": "Black", "image": "/images/Elviri Activewear products/compressiontee-men-black.png" },
-      { "name": "Grey", "image": "/images/Elviri Activewear products/compressiontee-men-grey.png" },
-      { "name": "White", "image": "/images/Elviri Activewear products/compressiontee-men-white.png" }
+      {
+        "name": "Black",
+        "image": "/images/Elviri Activewear products/compressiontee-men-black.png"
+      },
+      {
+        "name": "Grey",
+        "image": "/images/Elviri Activewear products/compressiontee-men-grey.png"
+      },
+      {
+        "name": "White",
+        "image": "/images/Elviri Activewear products/compressiontee-men-white.png"
+      }
     ]
   },
   {
@@ -93,9 +165,18 @@
     "price": 1199,
     "category": "Tops",
     "colors": [
-      { "name": "Black Back", "image": "/images/Elviri Activewear products/sculpfit-jacket-black-back.png" },
-      { "name": "Black Front", "image": "/images/Elviri Activewear products/sculpfit-jacket-black-front.png" },
-      { "name": "Mocha", "image": "/images/Elviri Activewear products/sculpfit-jacket-mocha.png" }
+      {
+        "name": "Black Back",
+        "image": "/images/Elviri Activewear products/sculpfit-jacket-black-back.png"
+      },
+      {
+        "name": "Black Front",
+        "image": "/images/Elviri Activewear products/sculpfit-jacket-black-front.png"
+      },
+      {
+        "name": "Mocha",
+        "image": "/images/Elviri Activewear products/sculpfit-jacket-mocha.png"
+      }
     ]
   }
 ]

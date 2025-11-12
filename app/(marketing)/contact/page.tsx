@@ -12,7 +12,8 @@ export default function ContactPage() {
         Questions, collaborations, or partnerships? Reach out to us at{" "}
         <a href="mailto:support@elviri.com" className="underline">
           support@elviri.com
-        </a>.
+        </a>
+        .
       </p>
     </div>
   );

@@ -1,1 +1,8 @@
-export default function Terms(){return <div className='prose prose-invert'><h1>Terms & Conditions</h1><p>Placeholder terms content.</p></div>}
+export default function Terms() {
+  return (
+    <div className="prose prose-invert">
+      <h1>Terms & Conditions</h1>
+      <p>Placeholder terms content.</p>
+    </div>
+  );
+}

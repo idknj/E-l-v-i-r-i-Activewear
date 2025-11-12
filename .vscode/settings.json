@@ -1,0 +1,25 @@
+{
+  "editor.formatOnSave": true,
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": "explicit",
+    "source.organizeImports": "explicit"
+  },
+  "files.eol": "\n",
+  "typescript.tsserver.maxTsServerMemory": 4096,
+  "prettier.singleQuote": true,
+  "prettier.semi": true,
+  "prettier.printWidth": 100,
+  "prettier.trailingComma": "all",
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "tailwindCSS.includeLanguages": {
+    "typescriptreact": "html",
+    "javascriptreact": "html"
+  },
+  "tailwindCSS.experimental.classRegex": [
+    ["clsx\\(([^)]*)\\)", "(?:'|\")([^'\"`]*)(?:'|\")"],
+    ["cva\\(([^)]*)\\)", "['\"`]([^'\"`]*)['\"`]"]
+  ],
+  "typescript.preferences.importModuleSpecifier": "non-relative",
+  "path-intellisense.extensionOnImport": true,
+  "explorer.compactFolders": false
+}

@@ -1,4 +1,4 @@
-'use client';
+"use client";
 import { create } from "zustand";
 
 type Item = {
@@ -33,21 +33,23 @@ export const useCartStore = create<CartState>((set, get) => ({
   items: [],
   add: (item) => {
     const items = get().items.slice();
-    const idx = items.findIndex(i => i.sku === item.sku);
+    const idx = items.findIndex((i) => i.sku === item.sku);
     if (idx >= 0) items[idx].qty += item.qty;
     else items.push(item);
     set({ items });
-    if (typeof window !== "undefined") localStorage.setItem(STORAGE_KEY, JSON.stringify(items));
+    if (typeof window !== "undefined")
+      localStorage.setItem(STORAGE_KEY, JSON.stringify(items));
   },
   remove: (sku) => {
-    const items = get().items.filter(i => i.sku !== sku);
+    const items = get().items.filter((i) => i.sku !== sku);
     set({ items });
-    if (typeof window !== "undefined") localStorage.setItem(STORAGE_KEY, JSON.stringify(items));
+    if (typeof window !== "undefined")
+      localStorage.setItem(STORAGE_KEY, JSON.stringify(items));
   },
   clear: () => {
     set({ items: [] });
     if (typeof window !== "undefined") localStorage.removeItem(STORAGE_KEY);
-  }
+  },
 }));
 
 if (typeof window !== "undefined") {
