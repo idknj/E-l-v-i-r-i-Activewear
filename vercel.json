@@ -1,0 +1,15 @@
+{
+  "redirects": [
+    {
+      "source": "https://www.elviriactivewear.store/(.*)",
+      "destination": "https://elviriactivewear.store/$1",
+      "permanent": true
+    },
+    {
+      "source": "/(.*)",
+      "has": [{ "type": "host", "value": "www.elviriactivewear.store" }],
+      "destination": "https://elviriactivewear.store/$1",
+      "permanent": true
+    }
+  ]
+}
